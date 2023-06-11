@@ -1,0 +1,32 @@
+body {
+    background-image: url(img/Cover.jpg);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+
+}
+
+.keydown {
+    scale: 1.1;
+    border:1px solid black;
+    font-size: 38px;
+    box-shadow: rgba(246, 6, 226, 0.4) 0px 0px 0px 2px, rgba(7, 237, 34, 0.65) 0px 4px 6px -1px, rgba(233, 186, 17, 0.08) 0px 1px 0px inset;
+}
+
